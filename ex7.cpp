@@ -1,6 +1,8 @@
 #include <iostream>
 #include <iomanip>
 
+// Body Mass Index (BMI) Calculator
+
 double calculateBMI(double weight, double height)
 {
     double BMI = weight / (height * height);
